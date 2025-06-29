@@ -1,0 +1,180 @@
+[0.000000] (-) TimerEvent: {}
+[0.000163] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000195] (-) JobUnselected: {'identifier': 'hello_moveit'}
+[0.000216] (-) JobUnselected: {'identifier': 'launch_param_builder'}
+[0.000235] (-) JobUnselected: {'identifier': 'lifted_arm_config'}
+[0.000252] (-) JobUnselected: {'identifier': 'moveit'}
+[0.000270] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.000287] (-) JobUnselected: {'identifier': 'moveit_chomp_optimizer_adapter'}
+[0.000304] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.000322] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.000339] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.000355] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.000378] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.000597] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.000621] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.000639] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.000656] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.000672] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.000688] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.000705] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.000723] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.000739] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.000755] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.000771] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.000786] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.000799] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.000814] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.000828] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.000842] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.000859] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.000874] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.000888] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.000902] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.000916] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.000929] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.000943] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.000957] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.000971] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.000985] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.000999] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.001013] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.001027] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.001050] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.001136] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.001161] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.001179] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.001195] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.001211] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.001226] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.001241] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.001256] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.001271] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.001293] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.001319] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.001334] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.001349] (-) JobUnselected: {'identifier': 'rosparam_shortcuts'}
+[0.001363] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.001388] (-) JobUnselected: {'identifier': 'srdfdom'}
+[0.001404] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.001421] (cartesian_motion) JobQueued: {'identifier': 'cartesian_motion', 'dependencies': OrderedDict([('launch_param_builder', '/home/kaushal/kaushal/moveit_ws/install/launch_param_builder'), ('moveit_common', '/home/kaushal/kaushal/moveit_ws/install/moveit_common'), ('moveit_resources_fanuc_description', '/home/kaushal/kaushal/moveit_ws/install/moveit_resources_fanuc_description'), ('moveit_resources_panda_description', '/home/kaushal/kaushal/moveit_ws/install/moveit_resources_panda_description'), ('moveit_resources_pr2_description', '/home/kaushal/kaushal/moveit_ws/install/moveit_resources_pr2_description'), ('srdfdom', '/home/kaushal/kaushal/moveit_ws/install/srdfdom'), ('moveit_configs_utils', '/home/kaushal/kaushal/moveit_ws/install/moveit_configs_utils'), ('moveit_resources_fanuc_moveit_config', '/home/kaushal/kaushal/moveit_ws/install/moveit_resources_fanuc_moveit_config'), ('moveit_resources_panda_moveit_config', '/home/kaushal/kaushal/moveit_ws/install/moveit_resources_panda_moveit_config'), ('moveit_core', '/home/kaushal/kaushal/moveit_ws/install/moveit_core'), ('moveit_ros_occupancy_map_monitor', '/home/kaushal/kaushal/moveit_ws/install/moveit_ros_occupancy_map_monitor'), ('moveit_simple_controller_manager', '/home/kaushal/kaushal/moveit_ws/install/moveit_simple_controller_manager'), ('moveit_ros_planning', '/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning'), ('moveit_kinematics', '/home/kaushal/kaushal/moveit_ws/install/moveit_kinematics'), ('moveit_planners_ompl', '/home/kaushal/kaushal/moveit_ws/install/moveit_planners_ompl'), ('moveit_ros_warehouse', '/home/kaushal/kaushal/moveit_ws/install/moveit_ros_warehouse'), ('moveit_ros_move_group', '/home/kaushal/kaushal/moveit_ws/install/moveit_ros_move_group'), ('moveit_ros_planning_interface', '/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface')])}
+[0.001464] (cartesian_motion) JobStarted: {'identifier': 'cartesian_motion'}
+[0.059526] (cartesian_motion) JobProgress: {'identifier': 'cartesian_motion', 'progress': 'cmake'}
+[0.060104] (cartesian_motion) JobProgress: {'identifier': 'cartesian_motion', 'progress': 'build'}
+[0.060825] (cartesian_motion) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kaushal/kaushal/moveit_ws/build/cartesian_motion', '--', '-j16', '-l16'], 'cwd': '/home/kaushal/kaushal/moveit_ws/build/cartesian_motion', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kaushal'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_move_group/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_warehouse/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_planners_ompl/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_kinematics/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_simple_controller_manager/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_core/lib:/home/kaushal/kaushal/moveit_ws/install/srdfdom/lib:/home/kaushal/kaushal/moveit_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/kaushal/kaushal/moveit_ws/install/pilz_industrial_motion_planner/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_visual_tools/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_visualization/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_demo/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_capabilities/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_core/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_control_interface/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_assistant/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_srdf_plugins/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_core_plugins/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_controllers/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_app_plugins/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_framework/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_servo/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_visualization/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_hybrid_planning/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_benchmarks/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_robot_interaction/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_perception/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_planners_chomp/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_chomp_optimizer_adapter/lib:/home/kaushal/kaushal/moveit_ws/install/chomp_motion_planner/lib:/home/kaushal/kaushal/moveit_ws/install/rviz_marker_tools/lib:/home/kaushal/kaushal/moveit_ws/install/rosparam_shortcuts/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kaushal'), ('OLDPWD', '/home/kaushal/kaushal/moveit_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1596'), ('SYSTEMD_EXEC_PID', '1906'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '338568'), ('COLCON_PREFIX_PATH', '/home/kaushal/kaushal/moveit_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kaushal'), ('JOURNAL_STREAM', '8:20739'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kaushal'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/kaushal/kaushal/moveit_ws/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/legion:@/tmp/.ICE-unix/1879,unix/legion:/tmp/.ICE-unix/1879'), ('INVOCATION_ID', 'df9b6f03770c4ae9b0f7f0029d28c640'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kaushal/kaushal/moveit_ws/install/moveit_configs_utils:/home/kaushal/kaushal/moveit_ws/install/launch_param_builder:/home/kaushal/kaushal/moveit_ws/install/cartesian_motion:/home/kaushal/kaushal/moveit_ws/install/lifted_arm_config:/home/kaushal/kaushal/moveit_ws/install/ur_description:/home/kaushal/kaushal/moveit_ws/install/pilz_industrial_motion_planner_testutils:/home/kaushal/kaushal/moveit_ws/install/moveit_runtime:/home/kaushal/kaushal/moveit_ws/install/moveit2_tutorials:/home/kaushal/kaushal/moveit_ws/install/moveit:/home/kaushal/kaushal/moveit_ws/install/moveit_planners:/home/kaushal/kaushal/moveit_ws/install/pilz_industrial_motion_planner:/home/kaushal/kaushal/moveit_ws/install/hello_moveit:/home/kaushal/kaushal/moveit_ws/install/moveit_visual_tools:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_visualization:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_demo:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_capabilities:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_core:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_control_interface:/home/kaushal/kaushal/moveit_ws/install/moveit_plugins:/home/kaushal/kaushal/moveit_ws/install/moveit_simple_controller_manager:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_assistant:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_srdf_plugins:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_core_plugins:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_controllers:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_app_plugins:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_framework:/home/kaushal/kaushal/moveit_ws/install/moveit_servo:/home/kaushal/kaushal/moveit_ws/install/moveit_ros:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_visualization:/home/kaushal/kaushal/moveit_ws/install/moveit_hybrid_planning:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_benchmarks:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_warehouse:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_robot_interaction:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_perception:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_prbt_pg70_support:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_prbt_moveit_config:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_move_group:/home/kaushal/kaushal/moveit_ws/install/moveit_planners_ompl:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_occupancy_map_monitor:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kaushal/kaushal/moveit_ws/install/moveit_planners_chomp:/home/kaushal/kaushal/moveit_ws/install/moveit_kinematics:/home/kaushal/kaushal/moveit_ws/install/moveit_chomp_optimizer_adapter:/home/kaushal/kaushal/moveit_ws/install/chomp_motion_planner:/home/kaushal/kaushal/moveit_ws/install/moveit_core:/home/kaushal/kaushal/moveit_ws/install/srdfdom:/home/kaushal/kaushal/moveit_ws/install/rviz_marker_tools:/home/kaushal/kaushal/moveit_ws/install/rosparam_shortcuts:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_msgs:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_prbt_support:/home/kaushal/kaushal/moveit_ws/install/moveit_resources:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_pr2_description:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_panda_moveit_config:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_panda_description:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_fanuc_moveit_config:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_fanuc_description:/home/kaushal/kaushal/moveit_ws/install/moveit_common:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:6781d144-ab06-4cbc-b70f-7546facc49e9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kaushal/kaushal/moveit_ws/build/cartesian_motion'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kaushal/kaushal/moveit_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/kaushal/kaushal/moveit_ws/install/launch_param_builder/lib/python3.10/site-packages:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/kaushal/kaushal/moveit_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_move_group:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_warehouse:/home/kaushal/kaushal/moveit_ws/install/moveit_planners_ompl:/home/kaushal/kaushal/moveit_ws/install/moveit_kinematics:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning:/home/kaushal/kaushal/moveit_ws/install/moveit_simple_controller_manager:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_occupancy_map_monitor:/home/kaushal/kaushal/moveit_ws/install/moveit_core:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_panda_moveit_config:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_fanuc_moveit_config:/home/kaushal/kaushal/moveit_ws/install/srdfdom:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_pr2_description:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_panda_description:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_fanuc_description:/home/kaushal/kaushal/moveit_ws/install/moveit_common:/home/kaushal/kaushal/moveit_ws/install/cartesian_motion:/home/kaushal/kaushal/moveit_ws/install/lifted_arm_config:/home/kaushal/kaushal/moveit_ws/install/ur_description:/home/kaushal/kaushal/moveit_ws/install/pilz_industrial_motion_planner_testutils:/home/kaushal/kaushal/moveit_ws/install/moveit_runtime:/home/kaushal/kaushal/moveit_ws/install/moveit2_tutorials:/home/kaushal/kaushal/moveit_ws/install/moveit:/home/kaushal/kaushal/moveit_ws/install/moveit_planners:/home/kaushal/kaushal/moveit_ws/install/pilz_industrial_motion_planner:/home/kaushal/kaushal/moveit_ws/install/hello_moveit:/home/kaushal/kaushal/moveit_ws/install/moveit_visual_tools:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_visualization:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_demo:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_capabilities:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_core:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_control_interface:/home/kaushal/kaushal/moveit_ws/install/moveit_plugins:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_assistant:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_srdf_plugins:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_core_plugins:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_controllers:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_app_plugins:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_framework:/home/kaushal/kaushal/moveit_ws/install/moveit_servo:/home/kaushal/kaushal/moveit_ws/install/moveit_ros:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_visualization:/home/kaushal/kaushal/moveit_ws/install/moveit_hybrid_planning:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_benchmarks:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_robot_interaction:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_perception:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_prbt_pg70_support:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_prbt_moveit_config:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kaushal/kaushal/moveit_ws/install/moveit_planners_chomp:/home/kaushal/kaushal/moveit_ws/install/moveit_chomp_optimizer_adapter:/home/kaushal/kaushal/moveit_ws/install/chomp_motion_planner:/home/kaushal/kaushal/moveit_ws/install/rviz_marker_tools:/home/kaushal/kaushal/moveit_ws/install/rosparam_shortcuts:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_msgs:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_prbt_support:/home/kaushal/kaushal/moveit_ws/install/moveit_resources:/home/kaushal/kaushal/moveit_ws/install/moveit_configs_utils:/home/kaushal/kaushal/moveit_ws/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[0.098842] (-) TimerEvent: {}
+[0.128628] (cartesian_motion) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cartesian_planner\x1b[0m\n'}
+[0.156819] (cartesian_motion) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cartesian_planner.dir/src/cartesian_planner.cpp.o\x1b[0m\n'}
+[0.198950] (-) TimerEvent: {}
+[0.299233] (-) TimerEvent: {}
+[0.399523] (-) TimerEvent: {}
+[0.499826] (-) TimerEvent: {}
+[0.600129] (-) TimerEvent: {}
+[0.700424] (-) TimerEvent: {}
+[0.800718] (-) TimerEvent: {}
+[0.901022] (-) TimerEvent: {}
+[1.001344] (-) TimerEvent: {}
+[1.101673] (-) TimerEvent: {}
+[1.202016] (-) TimerEvent: {}
+[1.302332] (-) TimerEvent: {}
+[1.402616] (-) TimerEvent: {}
+[1.502919] (-) TimerEvent: {}
+[1.603220] (-) TimerEvent: {}
+[1.703521] (-) TimerEvent: {}
+[1.803796] (-) TimerEvent: {}
+[1.904070] (-) TimerEvent: {}
+[2.004382] (-) TimerEvent: {}
+[2.104684] (-) TimerEvent: {}
+[2.204984] (-) TimerEvent: {}
+[2.305305] (-) TimerEvent: {}
+[2.405599] (-) TimerEvent: {}
+[2.505887] (-) TimerEvent: {}
+[2.606183] (-) TimerEvent: {}
+[2.706476] (-) TimerEvent: {}
+[2.806773] (-) TimerEvent: {}
+[2.907372] (-) TimerEvent: {}
+[3.008119] (-) TimerEvent: {}
+[3.108403] (-) TimerEvent: {}
+[3.208809] (-) TimerEvent: {}
+[3.309264] (-) TimerEvent: {}
+[3.409562] (-) TimerEvent: {}
+[3.510257] (-) TimerEvent: {}
+[3.610553] (-) TimerEvent: {}
+[3.710852] (-) TimerEvent: {}
+[3.811136] (-) TimerEvent: {}
+[3.900699] (cartesian_motion) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:8:120:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krobot_model\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.900924] (cartesian_motion) StderrLine: {'line': b'    8 | msg::RobotTrajectory &traj, const std::string end_effector, const double speed, \x1b[01;31m\x1b[Krobot_model\x1b[m\x1b[K::RobotModelConstPtr &robot_model)\n'}
+[3.901024] (cartesian_motion) StderrLine: {'line': b'      |                                                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.901123] (cartesian_motion) StderrLine: {'line': b'\n'}
+[3.901187] (cartesian_motion) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:8:152:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.901252] (cartesian_motion) StderrLine: {'line': b'    8 | t std::string end_effector, const double speed, robot_model::RobotModelConstPtr \x1b[01;31m\x1b[K&\x1b[m\x1b[Krobot_model)\n'}
+[3.901321] (cartesian_motion) StderrLine: {'line': b'      |                                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.901381] (cartesian_motion) StderrLine: {'line': b'\n'}
+[3.901436] (cartesian_motion) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid setAvgCartesianSpeed(moveit_msgs::msg::RobotTrajectory&, std::string, double, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.901495] (cartesian_motion) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:13:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krobot_state\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.901543] (cartesian_motion) StderrLine: {'line': b'   13 |     \x1b[01;31m\x1b[Krobot_state\x1b[m\x1b[K::RobotStatePtr kinematic_state(new robot_state::RobotState(robot_model));\n'}
+[3.901589] (cartesian_motion) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.907879] (cartesian_motion) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:14:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkinematic_state\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kkinematics\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.907989] (cartesian_motion) StderrLine: {'line': b'   14 |     \x1b[01;31m\x1b[Kkinematic_state\x1b[m\x1b[K->setToDefaultValues();\n'}
+[3.908073] (cartesian_motion) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.908138] (cartesian_motion) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kkinematics\x1b[m\x1b[K\n'}
+[3.910945] (cartesian_motion) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:27:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJointTrajectoryPoint\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ktrajectory_msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktrajectory_msgs::msg::JointTrajectoryPoint\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.911145] (-) TimerEvent: {}
+[3.911239] (cartesian_motion) StderrLine: {'line': b'   27 |     trajectory_msgs::\x1b[01;31m\x1b[KJointTrajectoryPoint\x1b[m\x1b[K *prev_waypoint, *curr_waypoint, *next_waypoint;\n'}
+[3.911348] (cartesian_motion) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.911416] (cartesian_motion) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp:22\x1b[m\x1b[K,\n'}
+[3.911476] (cartesian_motion) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp:7\x1b[m\x1b[K,\n'}
+[3.911538] (cartesian_motion) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_state/attached_body.h:43\x1b[m\x1b[K,\n'}
+[3.911596] (cartesian_motion) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:41\x1b[m\x1b[K,\n'}
+[3.911651] (cartesian_motion) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41\x1b[m\x1b[K,\n'}
+[3.911708] (cartesian_motion) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:6\x1b[m\x1b[K:\n'}
+[3.911762] (cartesian_motion) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp:167:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktrajectory_msgs::msg::JointTrajectoryPoint\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[3.911828] (cartesian_motion) StderrLine: {'line': b'  167 | using \x1b[01;36m\x1b[KJointTrajectoryPoint\x1b[m\x1b[K =\n'}
+[3.911884] (cartesian_motion) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.916345] (cartesian_motion) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:27:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprev_waypoint\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.916441] (cartesian_motion) StderrLine: {'line': b'   27 |     trajectory_msgs::JointTrajectoryPoint *\x1b[01;31m\x1b[Kprev_waypoint\x1b[m\x1b[K, *curr_waypoint, *next_waypoint;\n'}
+[3.916509] (cartesian_motion) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.921775] (cartesian_motion) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:27:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurr_waypoint\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Knum_waypoints\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.921928] (cartesian_motion) StderrLine: {'line': b'   27 |     trajectory_msgs::JointTrajectoryPoint *prev_waypoint, *\x1b[01;31m\x1b[Kcurr_waypoint\x1b[m\x1b[K, *next_waypoint;\n'}
+[3.922024] (cartesian_motion) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.922202] (cartesian_motion) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[Knum_waypoints\x1b[m\x1b[K\n'}
+[3.925883] (cartesian_motion) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:27:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knext_waypoint\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Knum_waypoints\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.925979] (cartesian_motion) StderrLine: {'line': b'   27 |     trajectory_msgs::JointTrajectoryPoint *prev_waypoint, *curr_waypoint, *\x1b[01;31m\x1b[Knext_waypoint\x1b[m\x1b[K;\n'}
+[3.926058] (cartesian_motion) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.926136] (cartesian_motion) StderrLine: {'line': b'      |                                                                            \x1b[32m\x1b[Knum_waypoints\x1b[m\x1b[K\n'}
+[3.939468] (cartesian_motion) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:63:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kplan\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.939692] (cartesian_motion) StderrLine: {'line': b'   63 |         curr_waypoint = &\x1b[01;31m\x1b[Kplan\x1b[m\x1b[K.trajectory_.joint_trajectory.points.at(i);            //set current, previous & next waypoints\n'}
+[3.939753] (cartesian_motion) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.939805] (cartesian_motion) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:79:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::__cxx11::basic_string<char> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.939924] (cartesian_motion) StderrLine: {'line': b'   79 |         for(int j = 0; \x1b[01;35m\x1b[Kj < joint_names.size()\x1b[m\x1b[K; j++)     //loop through all joints in waypoint\n'}
+[3.940004] (cartesian_motion) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.940073] (cartesian_motion) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:8:133:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KRobotModelConstPtr\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.940134] (cartesian_motion) StderrLine: {'line': b'    8 | jectory &traj, const std::string end_effector, const double speed, \x1b[01;35m\x1b[Krobot_model::RobotModelConstPtr\x1b[m\x1b[K &robot_model)\n'}
+[3.940179] (cartesian_motion) StderrLine: {'line': b'      |                                                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.940223] (cartesian_motion) StderrLine: {'line': b'\n'}
+[4.011289] (-) TimerEvent: {}
+[4.111594] (-) TimerEvent: {}
+[4.211891] (-) TimerEvent: {}
+[4.312207] (-) TimerEvent: {}
+[4.412491] (-) TimerEvent: {}
+[4.512794] (-) TimerEvent: {}
+[4.613101] (-) TimerEvent: {}
+[4.713390] (-) TimerEvent: {}
+[4.813666] (-) TimerEvent: {}
+[4.913937] (-) TimerEvent: {}
+[5.014808] (-) TimerEvent: {}
+[5.115116] (-) TimerEvent: {}
+[5.215411] (-) TimerEvent: {}
+[5.315711] (-) TimerEvent: {}
+[5.415969] (-) TimerEvent: {}
+[5.516268] (-) TimerEvent: {}
+[5.616551] (-) TimerEvent: {}
+[5.716842] (-) TimerEvent: {}
+[5.817130] (-) TimerEvent: {}
+[5.913960] (cartesian_motion) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cartesian_planner.dir/build.make:76: CMakeFiles/cartesian_planner.dir/src/cartesian_planner.cpp.o] Error 1\n'}
+[5.914340] (cartesian_motion) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cartesian_planner.dir/all] Error 2\n'}
+[5.914592] (cartesian_motion) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.917214] (-) TimerEvent: {}
+[5.917717] (cartesian_motion) CommandEnded: {'returncode': 2}
+[5.926536] (cartesian_motion) JobEnded: {'identifier': 'cartesian_motion', 'rc': 2}
+[5.937002] (-) EventReactorShutdown: {}

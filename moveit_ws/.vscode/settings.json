@@ -1,0 +1,9 @@
+{
+    "cmake.sourceDirectory": "/home/kaushal/kaushal/moveit_ws/src/hello_moveit",
+    "files.associations": {
+        "*.xacro": "xml",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp"
+    }
+}

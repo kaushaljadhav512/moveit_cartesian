@@ -1,0 +1,46 @@
+[35m[1mConsolidate compiler generated dependencies of target cartesian_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cartesian_planner.dir/src/cartesian_planner.cpp.o[0m
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:[m[K In function ‘[01m[Kvoid setAvgCartesianSpeed(moveit_msgs::msg::RobotTrajectory&, std::string, double, moveit::core::RobotStatePtr)[m[K’:
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:51:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _time_from_start_type = struct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’} has no member named ‘[01m[KtoSec[m[K’
+   51 |         new_timestamp = curr_waypoint->time_from_start.[01;31m[KtoSec[m[K() + (euclidean_distance / speed);      //start by printing out all 3 of these!
+      |                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:52:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _time_from_start_type = struct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’} has no member named ‘[01m[KtoSec[m[K’
+   52 |         old_timestamp = next_waypoint->time_from_start.[01;31m[KtoSec[m[K();
+      |                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:56:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _time_from_start_type = struct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’} has no member named ‘[01m[KfromSec[m[K’
+   56 |             next_waypoint->time_from_start.[01;31m[KfromSec[m[K(new_timestamp);
+      |                                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:76:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _time_from_start_type = struct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’} has no member named ‘[01m[KtoSec[m[K’
+   76 |             dt1 = dt2 = next_waypoint->time_from_start.[01;31m[KtoSec[m[K() - curr_waypoint->time_from_start.toSec();
+      |                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:76:97:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _time_from_start_type = struct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’} has no member named ‘[01m[KtoSec[m[K’
+   76 | t1 = dt2 = next_waypoint->time_from_start.toSec() - curr_waypoint->time_from_start.[01;31m[KtoSec[m[K();
+      |                                                                                    [01;31m[K^~~~~[m[K
+
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:79:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _time_from_start_type = struct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’} has no member named ‘[01m[KtoSec[m[K’
+   79 |             dt1 = curr_waypoint->time_from_start.[01;31m[KtoSec[m[K() - prev_waypoint->time_from_start.toSec();
+      |                                                  [01;31m[K^~~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:79:91:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _time_from_start_type = struct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’} has no member named ‘[01m[KtoSec[m[K’
+   79 |      dt1 = curr_waypoint->time_from_start.toSec() - prev_waypoint->time_from_start.[01;31m[KtoSec[m[K();
+      |                                                                                    [01;31m[K^~~~~[m[K
+
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:80:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _time_from_start_type = struct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’} has no member named ‘[01m[KtoSec[m[K’
+   80 |             dt2 = next_waypoint->time_from_start.[01;31m[KtoSec[m[K() - curr_waypoint->time_from_start.toSec();
+      |                                                  [01;31m[K^~~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:80:91:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _time_from_start_type = struct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’} has no member named ‘[01m[KtoSec[m[K’
+   80 |      dt2 = next_waypoint->time_from_start.toSec() - curr_waypoint->time_from_start.[01;31m[KtoSec[m[K();
+      |                                                                                    [01;31m[K^~~~~[m[K
+
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:83:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _time_from_start_type = struct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’} has no member named ‘[01m[KtoSec[m[K’
+   83 |             dt1 = dt2 = curr_waypoint->time_from_start.[01;31m[KtoSec[m[K() - prev_waypoint->time_from_start.toSec();
+      |                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:83:97:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _time_from_start_type = struct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct builtin_interfaces::msg::Duration_<std::allocator<void> >[m[K’} has no member named ‘[01m[KtoSec[m[K’
+   83 | t1 = dt2 = curr_waypoint->time_from_start.toSec() - prev_waypoint->time_from_start.[01;31m[KtoSec[m[K();
+      |                                                                                    [01;31m[K^~~~~[m[K
+
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:85:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   85 |         for(int j = 0; [01;35m[Kj < joint_names.size()[m[K; j++)     //loop through all joints in waypoint
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cartesian_planner.dir/build.make:76: CMakeFiles/cartesian_planner.dir/src/cartesian_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cartesian_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

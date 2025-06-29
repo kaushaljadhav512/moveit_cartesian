@@ -1,0 +1,39 @@
+[35m[1mConsolidate compiler generated dependencies of target cartesian_waypoints[0m
+[ 50%] Built target hello_moveit
+[ 75%] [32mBuilding CXX object CMakeFiles/cartesian_waypoints.dir/src/cartesian_waypoints.cpp.o[0m
+[01m[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/cartesian_waypoints.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/cartesian_waypoints.cpp:26:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_visual_tools[m[K’ is not a class, namespace, or enumeration
+   26 |   auto moveit_visual_tools = [01;31m[Kmoveit_visual_tools[m[K::MoveItVisualTools{
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/cartesian_waypoints.cpp:[m[K In lambda function:
+[01m[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/cartesian_waypoints.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_visual_tools[m[K’ is not captured
+   38 |     [01;31m[Kmoveit_visual_tools[m[K.publishText(text_pose, text, rviz_visual_tools::WHITE,
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/cartesian_waypoints.cpp:32:48:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   32 |   auto const draw_title = [&moveit_visual_tools[01;36m[K][m[K(auto text) {
+      |                                                [01;36m[K^[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/cartesian_waypoints.cpp:26:8:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>moveit_visual_tools[m[K’ declared here
+   26 |   auto [01;36m[Kmoveit_visual_tools[m[K = moveit_visual_tools::MoveItVisualTools{
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/cartesian_waypoints.cpp:38:54:[m[K [01;31m[Kerror: [m[K‘[01m[Krviz_visual_tools[m[K’ has not been declared
+   38 |     moveit_visual_tools.publishText(text_pose, text, [01;31m[Krviz_visual_tools[m[K::WHITE,
+      |                                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/cartesian_waypoints.cpp:39:37:[m[K [01;31m[Kerror: [m[K‘[01m[Krviz_visual_tools[m[K’ has not been declared
+   39 |                                     [01;31m[Krviz_visual_tools[m[K::XLARGE);
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/cartesian_waypoints.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/cartesian_waypoints.cpp:76:46:[m[K [01;31m[Kerror: [m[K‘[01m[Krvt[m[K’ has not been declared
+   76 |   moveit_visual_tools.publishPath(waypoints, [01;31m[Krvt[m[K::LIME_GREEN, rvt::SMALL);
+      |                                              [01;31m[K^~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/cartesian_waypoints.cpp:76:63:[m[K [01;31m[Kerror: [m[K‘[01m[Krvt[m[K’ has not been declared
+   76 |   moveit_visual_tools.publishPath(waypoints, rvt::LIME_GREEN, [01;31m[Krvt[m[K::SMALL);
+      |                                                               [01;31m[K^~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/cartesian_waypoints.cpp:79:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_tools[m[K’ was not declared in this scope
+   79 |     [01;31m[Kvisual_tools[m[K.publishAxisLabeled(waypoints[i], "pt" + std::to_string(i), rvt::SMALL);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/cartesian_waypoints.cpp:79:77:[m[K [01;31m[Kerror: [m[K‘[01m[Krvt[m[K’ has not been declared
+   79 |     visual_tools.publishAxisLabeled(waypoints[i], "pt" + std::to_string(i), [01;31m[Krvt[m[K::SMALL);
+      |                                                                             [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/cartesian_waypoints.dir/build.make:76: CMakeFiles/cartesian_waypoints.dir/src/cartesian_waypoints.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cartesian_waypoints.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

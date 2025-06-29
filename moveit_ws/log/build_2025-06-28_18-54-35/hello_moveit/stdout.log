@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target cartesian_waypoints[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cartesian_waypoints.dir/src/cartesian_waypoints.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable cartesian_waypoints[0m
+[ 75%] Built target cartesian_waypoints

@@ -1,0 +1,450 @@
+[0.000000] (-) TimerEvent: {}
+[0.000525] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000552] (-) JobUnselected: {'identifier': 'launch_param_builder'}
+[0.000568] (-) JobUnselected: {'identifier': 'lifted_arm_config'}
+[0.000585] (-) JobUnselected: {'identifier': 'moveit'}
+[0.000599] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.000613] (-) JobUnselected: {'identifier': 'moveit_chomp_optimizer_adapter'}
+[0.000629] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.000643] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.000656] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.000671] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.000684] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.000699] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.000711] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.000726] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.000739] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.000760] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.000774] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.000788] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.000803] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.000824] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.000849] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.000868] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.000883] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.000898] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.000912] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.000926] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.000940] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.000955] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.000968] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.000983] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.000997] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.001011] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.001025] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.001039] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.001053] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.001066] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.001081] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.001094] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.001108] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.001122] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.001136] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.001151] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.001165] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.001179] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.001194] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.001207] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.001221] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.001235] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.001249] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.001263] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.001276] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.001290] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.001304] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.001318] (-) JobUnselected: {'identifier': 'rosparam_shortcuts'}
+[0.001332] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.001346] (-) JobUnselected: {'identifier': 'srdfdom'}
+[0.001499] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.001519] (hello_moveit) JobQueued: {'identifier': 'hello_moveit', 'dependencies': OrderedDict([('launch_param_builder', '/home/kaushal/kaushal/moveit_ws/install/launch_param_builder'), ('moveit_common', '/home/kaushal/kaushal/moveit_ws/install/moveit_common'), ('moveit_resources_fanuc_description', '/home/kaushal/kaushal/moveit_ws/install/moveit_resources_fanuc_description'), ('moveit_resources_panda_description', '/home/kaushal/kaushal/moveit_ws/install/moveit_resources_panda_description'), ('moveit_resources_pr2_description', '/home/kaushal/kaushal/moveit_ws/install/moveit_resources_pr2_description'), ('srdfdom', '/home/kaushal/kaushal/moveit_ws/install/srdfdom'), ('moveit_configs_utils', '/home/kaushal/kaushal/moveit_ws/install/moveit_configs_utils'), ('moveit_resources_fanuc_moveit_config', '/home/kaushal/kaushal/moveit_ws/install/moveit_resources_fanuc_moveit_config'), ('moveit_resources_panda_moveit_config', '/home/kaushal/kaushal/moveit_ws/install/moveit_resources_panda_moveit_config'), ('moveit_core', '/home/kaushal/kaushal/moveit_ws/install/moveit_core'), ('moveit_ros_occupancy_map_monitor', '/home/kaushal/kaushal/moveit_ws/install/moveit_ros_occupancy_map_monitor'), ('moveit_simple_controller_manager', '/home/kaushal/kaushal/moveit_ws/install/moveit_simple_controller_manager'), ('moveit_ros_planning', '/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning'), ('moveit_kinematics', '/home/kaushal/kaushal/moveit_ws/install/moveit_kinematics'), ('moveit_planners_ompl', '/home/kaushal/kaushal/moveit_ws/install/moveit_planners_ompl'), ('moveit_ros_warehouse', '/home/kaushal/kaushal/moveit_ws/install/moveit_ros_warehouse'), ('moveit_ros_move_group', '/home/kaushal/kaushal/moveit_ws/install/moveit_ros_move_group'), ('moveit_ros_planning_interface', '/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface')])}
+[0.001879] (hello_moveit) JobStarted: {'identifier': 'hello_moveit'}
+[0.058739] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'cmake'}
+[0.059324] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'build'}
+[0.060074] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kaushal/kaushal/moveit_ws/build/hello_moveit', '--', '-j16', '-l16'], 'cwd': '/home/kaushal/kaushal/moveit_ws/build/hello_moveit', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kaushal'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_move_group/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_warehouse/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_planners_ompl/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_kinematics/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_simple_controller_manager/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_core/lib:/home/kaushal/kaushal/moveit_ws/install/srdfdom/lib:/home/kaushal/kaushal/moveit_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/kaushal/kaushal/moveit_ws/install/pilz_industrial_motion_planner/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_visual_tools/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_visualization/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_demo/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_capabilities/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_core/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_control_interface/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_assistant/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_srdf_plugins/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_core_plugins/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_controllers/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_app_plugins/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_framework/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_servo/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_visualization/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_hybrid_planning/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_benchmarks/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_robot_interaction/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_perception/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_planners_chomp/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_chomp_optimizer_adapter/lib:/home/kaushal/kaushal/moveit_ws/install/chomp_motion_planner/lib:/home/kaushal/kaushal/moveit_ws/install/rviz_marker_tools/lib:/home/kaushal/kaushal/moveit_ws/install/rosparam_shortcuts/lib:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kaushal'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/kaushal/kaushal/moveit_ws/src'), ('TERM_PROGRAM_VERSION', '1.101.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1801'), ('SYSTEMD_EXEC_PID', '2113'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7066'), ('COLCON_PREFIX_PATH', '/home/kaushal/kaushal/moveit_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kaushal'), ('JOURNAL_STREAM', '8:7870'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kaushal'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/kaushal/kaushal/moveit_ws/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/legion:@/tmp/.ICE-unix/2086,unix/legion:/tmp/.ICE-unix/2086'), ('INVOCATION_ID', 'c6fcc8a248394e6ab2a4a439e68a0a90'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8173dfdfe8.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kaushal/kaushal/moveit_ws/install/moveit_configs_utils:/home/kaushal/kaushal/moveit_ws/install/launch_param_builder:/home/kaushal/kaushal/moveit_ws/install/lifted_arm_config:/home/kaushal/kaushal/moveit_ws/install/ur_description:/home/kaushal/kaushal/moveit_ws/install/pilz_industrial_motion_planner_testutils:/home/kaushal/kaushal/moveit_ws/install/moveit_runtime:/home/kaushal/kaushal/moveit_ws/install/moveit2_tutorials:/home/kaushal/kaushal/moveit_ws/install/moveit:/home/kaushal/kaushal/moveit_ws/install/moveit_planners:/home/kaushal/kaushal/moveit_ws/install/pilz_industrial_motion_planner:/home/kaushal/kaushal/moveit_ws/install/moveit_visual_tools:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_visualization:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_demo:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_capabilities:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_core:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_control_interface:/home/kaushal/kaushal/moveit_ws/install/moveit_plugins:/home/kaushal/kaushal/moveit_ws/install/moveit_simple_controller_manager:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_assistant:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_srdf_plugins:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_core_plugins:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_controllers:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_app_plugins:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_framework:/home/kaushal/kaushal/moveit_ws/install/moveit_servo:/home/kaushal/kaushal/moveit_ws/install/moveit_ros:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_visualization:/home/kaushal/kaushal/moveit_ws/install/moveit_hybrid_planning:/home/kaushal/kaushal/moveit_ws/install/hello_moveit:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_benchmarks:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_warehouse:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_robot_interaction:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_perception:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_prbt_pg70_support:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_prbt_moveit_config:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_move_group:/home/kaushal/kaushal/moveit_ws/install/moveit_planners_ompl:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_occupancy_map_monitor:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kaushal/kaushal/moveit_ws/install/moveit_planners_chomp:/home/kaushal/kaushal/moveit_ws/install/moveit_kinematics:/home/kaushal/kaushal/moveit_ws/install/moveit_chomp_optimizer_adapter:/home/kaushal/kaushal/moveit_ws/install/chomp_motion_planner:/home/kaushal/kaushal/moveit_ws/install/moveit_core:/home/kaushal/kaushal/moveit_ws/install/srdfdom:/home/kaushal/kaushal/moveit_ws/install/rviz_marker_tools:/home/kaushal/kaushal/moveit_ws/install/rosparam_shortcuts:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_msgs:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_prbt_support:/home/kaushal/kaushal/moveit_ws/install/moveit_resources:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_pr2_description:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_panda_moveit_config:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_panda_description:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_fanuc_moveit_config:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_fanuc_description:/home/kaushal/kaushal/moveit_ws/install/moveit_common:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kaushal/kaushal/moveit_ws/build/hello_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kaushal/kaushal/moveit_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/kaushal/kaushal/moveit_ws/install/launch_param_builder/lib/python3.10/site-packages:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/kaushal/kaushal/moveit_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_move_group:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_warehouse:/home/kaushal/kaushal/moveit_ws/install/moveit_planners_ompl:/home/kaushal/kaushal/moveit_ws/install/moveit_kinematics:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning:/home/kaushal/kaushal/moveit_ws/install/moveit_simple_controller_manager:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_occupancy_map_monitor:/home/kaushal/kaushal/moveit_ws/install/moveit_core:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_panda_moveit_config:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_fanuc_moveit_config:/home/kaushal/kaushal/moveit_ws/install/srdfdom:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_pr2_description:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_panda_description:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_fanuc_description:/home/kaushal/kaushal/moveit_ws/install/moveit_common:/home/kaushal/kaushal/moveit_ws/install/lifted_arm_config:/home/kaushal/kaushal/moveit_ws/install/ur_description:/home/kaushal/kaushal/moveit_ws/install/pilz_industrial_motion_planner_testutils:/home/kaushal/kaushal/moveit_ws/install/moveit_runtime:/home/kaushal/kaushal/moveit_ws/install/moveit2_tutorials:/home/kaushal/kaushal/moveit_ws/install/moveit:/home/kaushal/kaushal/moveit_ws/install/moveit_planners:/home/kaushal/kaushal/moveit_ws/install/pilz_industrial_motion_planner:/home/kaushal/kaushal/moveit_ws/install/moveit_visual_tools:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_visualization:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_demo:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_capabilities:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_core:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_control_interface:/home/kaushal/kaushal/moveit_ws/install/moveit_plugins:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_assistant:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_srdf_plugins:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_core_plugins:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_controllers:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_app_plugins:/home/kaushal/kaushal/moveit_ws/install/moveit_setup_framework:/home/kaushal/kaushal/moveit_ws/install/moveit_servo:/home/kaushal/kaushal/moveit_ws/install/moveit_ros:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_visualization:/home/kaushal/kaushal/moveit_ws/install/moveit_hybrid_planning:/home/kaushal/kaushal/moveit_ws/install/hello_moveit:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_benchmarks:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_robot_interaction:/home/kaushal/kaushal/moveit_ws/install/moveit_ros_perception:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_prbt_pg70_support:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_prbt_moveit_config:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kaushal/kaushal/moveit_ws/install/moveit_planners_chomp:/home/kaushal/kaushal/moveit_ws/install/moveit_chomp_optimizer_adapter:/home/kaushal/kaushal/moveit_ws/install/chomp_motion_planner:/home/kaushal/kaushal/moveit_ws/install/rviz_marker_tools:/home/kaushal/kaushal/moveit_ws/install/rosparam_shortcuts:/home/kaushal/kaushal/moveit_ws/install/moveit_task_constructor_msgs:/home/kaushal/kaushal/moveit_ws/install/moveit_resources_prbt_support:/home/kaushal/kaushal/moveit_ws/install/moveit_resources:/home/kaushal/kaushal/moveit_ws/install/moveit_configs_utils:/home/kaushal/kaushal/moveit_ws/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[0.100056] (-) TimerEvent: {}
+[0.124437] (hello_moveit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hello_moveit\x1b[0m\n'}
+[0.152088] (hello_moveit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o\x1b[0m\n'}
+[0.200324] (-) TimerEvent: {}
+[0.300597] (-) TimerEvent: {}
+[0.400905] (-) TimerEvent: {}
+[0.501205] (-) TimerEvent: {}
+[0.601478] (-) TimerEvent: {}
+[0.701767] (-) TimerEvent: {}
+[0.802077] (-) TimerEvent: {}
+[0.902366] (-) TimerEvent: {}
+[1.002673] (-) TimerEvent: {}
+[1.102990] (-) TimerEvent: {}
+[1.203293] (-) TimerEvent: {}
+[1.303606] (-) TimerEvent: {}
+[1.403934] (-) TimerEvent: {}
+[1.504241] (-) TimerEvent: {}
+[1.604529] (-) TimerEvent: {}
+[1.704855] (-) TimerEvent: {}
+[1.805167] (-) TimerEvent: {}
+[1.905456] (-) TimerEvent: {}
+[2.005896] (-) TimerEvent: {}
+[2.106204] (-) TimerEvent: {}
+[2.206498] (-) TimerEvent: {}
+[2.306821] (-) TimerEvent: {}
+[2.407162] (-) TimerEvent: {}
+[2.507470] (-) TimerEvent: {}
+[2.608181] (-) TimerEvent: {}
+[2.708476] (-) TimerEvent: {}
+[2.808797] (-) TimerEvent: {}
+[2.909084] (-) TimerEvent: {}
+[3.009378] (-) TimerEvent: {}
+[3.109655] (-) TimerEvent: {}
+[3.210010] (-) TimerEvent: {}
+[3.310298] (-) TimerEvent: {}
+[3.410563] (-) TimerEvent: {}
+[3.510842] (-) TimerEvent: {}
+[3.611126] (-) TimerEvent: {}
+[3.711420] (-) TimerEvent: {}
+[3.811712] (-) TimerEvent: {}
+[3.912078] (-) TimerEvent: {}
+[3.912658] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[3.912829] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:21:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.912945] (hello_moveit) StderrLine: {'line': b'   21 |     geometry_msgs::\x1b[01;31m\x1b[Kmsgs\x1b[m\x1b[K::msg::Pose msg;\n'}
+[3.913006] (hello_moveit) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.913456] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:22:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.913552] (hello_moveit) StderrLine: {'line': b'   22 |     \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K.orientation.w = 1.0;\n'}
+[3.913610] (hello_moveit) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.913666] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:22:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[3.914259] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[3.914342] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[3.914404] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[3.914454] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32\x1b[m\x1b[K,\n'}
+[3.914498] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[3.914542] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.914585] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.914627] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.914671] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.914714] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.914755] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.914797] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.914846] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.915131] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.915209] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:3\x1b[m\x1b[K:\n'}
+[3.915401] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.915554] (hello_moveit) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.915600] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.915646] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[3.915691] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28\x1b[m\x1b[K,\n'}
+[3.915734] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30\x1b[m\x1b[K,\n'}
+[3.915778] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45\x1b[m\x1b[K,\n'}
+[3.915822] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.915886] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.915943] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.915987] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.916030] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.916072] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.916114] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.916154] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.916194] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:3\x1b[m\x1b[K:\n'}
+[3.916245] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.916295] (hello_moveit) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.916339] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.916380] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23\x1b[m\x1b[K,\n'}
+[3.916422] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[3.916464] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[3.916505] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.916546] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.916591] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.916633] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.916674] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.916715] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.916757] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.916798] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.916848] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.916903] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.916943] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:3\x1b[m\x1b[K:\n'}
+[3.916989] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.917031] (hello_moveit) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.917070] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.917109] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp:7\x1b[m\x1b[K,\n'}
+[3.917149] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_model/joint_model.h:44\x1b[m\x1b[K,\n'}
+[3.917187] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:40\x1b[m\x1b[K,\n'}
+[3.917251] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[3.917296] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:40\x1b[m\x1b[K,\n'}
+[3.917335] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41\x1b[m\x1b[K,\n'}
+[3.917375] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.917414] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmoveit_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.917453] (hello_moveit) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.917493] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.917533] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:20\x1b[m\x1b[K,\n'}
+[3.917583] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7\x1b[m\x1b[K,\n'}
+[3.917652] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h:39\x1b[m\x1b[K,\n'}
+[3.917718] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:42\x1b[m\x1b[K,\n'}
+[3.917786] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[3.917828] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:40\x1b[m\x1b[K,\n'}
+[3.917903] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41\x1b[m\x1b[K,\n'}
+[3.917952] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.917998] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.918044] (hello_moveit) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.918085] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.918125] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp:20\x1b[m\x1b[K,\n'}
+[3.918169] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:7\x1b[m\x1b[K,\n'}
+[3.918210] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/transforms/transforms.h:39\x1b[m\x1b[K,\n'}
+[3.918250] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_state/attached_body.h:40\x1b[m\x1b[K,\n'}
+[3.918290] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:41\x1b[m\x1b[K,\n'}
+[3.918330] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41\x1b[m\x1b[K,\n'}
+[3.918372] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.918426] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.918467] (hello_moveit) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.918508] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.918547] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp:22\x1b[m\x1b[K,\n'}
+[3.918587] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp:7\x1b[m\x1b[K,\n'}
+[3.918628] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_state/attached_body.h:43\x1b[m\x1b[K,\n'}
+[3.918670] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:41\x1b[m\x1b[K,\n'}
+[3.918710] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41\x1b[m\x1b[K,\n'}
+[3.918750] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.918789] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktrajectory_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.918830] (hello_moveit) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.918908] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.918964] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:7\x1b[m\x1b[K,\n'}
+[3.919024] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:43\x1b[m\x1b[K,\n'}
+[3.919064] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41\x1b[m\x1b[K,\n'}
+[3.919103] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.919144] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.919215] (hello_moveit) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.919301] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.919383] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:35\x1b[m\x1b[K,\n'}
+[3.919463] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp:20\x1b[m\x1b[K,\n'}
+[3.919536] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp:7\x1b[m\x1b[K,\n'}
+[3.919613] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:44\x1b[m\x1b[K,\n'}
+[3.919693] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41\x1b[m\x1b[K,\n'}
+[3.919754] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.919800] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.919881] (hello_moveit) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.919948] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.919991] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp:28\x1b[m\x1b[K,\n'}
+[3.920033] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp:20\x1b[m\x1b[K,\n'}
+[3.920074] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__struct.hpp:24\x1b[m\x1b[K,\n'}
+[3.920115] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp:7\x1b[m\x1b[K,\n'}
+[3.920157] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:44\x1b[m\x1b[K,\n'}
+[3.920199] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.920254] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kobject_recognition_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.920308] (hello_moveit) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.920370] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.920429] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp:30\x1b[m\x1b[K,\n'}
+[3.920473] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp:20\x1b[m\x1b[K,\n'}
+[3.920533] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__struct.hpp:24\x1b[m\x1b[K,\n'}
+[3.920579] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp:7\x1b[m\x1b[K,\n'}
+[3.920621] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:44\x1b[m\x1b[K,\n'}
+[3.920664] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.920714] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kshape_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.920755] (hello_moveit) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.920795] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.920846] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp:24\x1b[m\x1b[K,\n'}
+[3.920900] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp:22\x1b[m\x1b[K,\n'}
+[3.920941] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp:32\x1b[m\x1b[K,\n'}
+[3.920981] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_options__struct.hpp:20\x1b[m\x1b[K,\n'}
+[3.921027] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/action/detail/move_group__struct.hpp:22\x1b[m\x1b[K,\n'}
+[3.921068] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/action/move_group.hpp:7\x1b[m\x1b[K,\n'}
+[3.921107] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:52\x1b[m\x1b[K,\n'}
+[3.921147] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.921187] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Koctomap_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.921227] (hello_moveit) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.921334] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.921393] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/action/detail/move_group__struct.hpp:439\x1b[m\x1b[K,\n'}
+[3.921443] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/action/move_group.hpp:7\x1b[m\x1b[K,\n'}
+[3.921501] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:52\x1b[m\x1b[K,\n'}
+[3.921550] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.921590] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kunique_identifier_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.921634] (hello_moveit) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.921760] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.921847] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp:20\x1b[m\x1b[K,\n'}
+[3.921905] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp:7\x1b[m\x1b[K,\n'}
+[3.921948] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/action/detail/move_group__struct.hpp:1099\x1b[m\x1b[K,\n'}
+[3.921991] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/action/move_group.hpp:7\x1b[m\x1b[K,\n'}
+[3.922030] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:52\x1b[m\x1b[K,\n'}
+[3.922073] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.922115] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp:33:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kaction_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.922156] (hello_moveit) StderrLine: {'line': b'   33 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.922197] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.922238] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[3.922280] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:32:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interfaces\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.922322] (hello_moveit) StderrLine: {'line': b'   32 |     moveit::\x1b[01;31m\x1b[Kplanning_interfaces\x1b[m\x1b[K::MoveGroupInterface::Plan msg;\n'}
+[3.922363] (hello_moveit) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.922418] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:33:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.922466] (hello_moveit) StderrLine: {'line': b'   33 |     auto const ok = static_cast<bool>(move_group_interface.plan(\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K));\n'}
+[3.922508] (hello_moveit) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.922549] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:33:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[3.922601] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[3.922643] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[3.922685] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[3.922726] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32\x1b[m\x1b[K,\n'}
+[3.922768] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[3.922809] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.922861] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.922910] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.922952] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.922994] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.923034] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.923272] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.923323] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.923367] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.923410] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:3\x1b[m\x1b[K:\n'}
+[3.923455] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.923503] (hello_moveit) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.923545] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.923586] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[3.923627] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28\x1b[m\x1b[K,\n'}
+[3.923668] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30\x1b[m\x1b[K,\n'}
+[3.923709] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45\x1b[m\x1b[K,\n'}
+[3.923753] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.923793] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.923842] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.923894] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.923937] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.923978] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.924019] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.924059] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.924100] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:3\x1b[m\x1b[K:\n'}
+[3.924140] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.924181] (hello_moveit) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.924221] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.924261] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23\x1b[m\x1b[K,\n'}
+[3.924300] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[3.924339] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[3.924379] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.924418] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.924458] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.924497] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.924536] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.924574] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.924613] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.924652] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.924701] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.924748] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.924787] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:3\x1b[m\x1b[K:\n'}
+[3.924828] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.924887] (hello_moveit) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.924929] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.924969] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp:7\x1b[m\x1b[K,\n'}
+[3.925008] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_model/joint_model.h:44\x1b[m\x1b[K,\n'}
+[3.925048] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:40\x1b[m\x1b[K,\n'}
+[3.925089] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[3.925132] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:40\x1b[m\x1b[K,\n'}
+[3.925177] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41\x1b[m\x1b[K,\n'}
+[3.925217] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.925256] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmoveit_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.925296] (hello_moveit) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.925337] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.925377] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:20\x1b[m\x1b[K,\n'}
+[3.925415] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7\x1b[m\x1b[K,\n'}
+[3.925456] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h:39\x1b[m\x1b[K,\n'}
+[3.925497] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:42\x1b[m\x1b[K,\n'}
+[3.925538] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[3.925579] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:40\x1b[m\x1b[K,\n'}
+[3.925618] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41\x1b[m\x1b[K,\n'}
+[3.925662] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.925702] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.925742] (hello_moveit) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.925782] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.925820] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp:20\x1b[m\x1b[K,\n'}
+[3.925876] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:7\x1b[m\x1b[K,\n'}
+[3.925918] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/transforms/transforms.h:39\x1b[m\x1b[K,\n'}
+[3.925957] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_state/attached_body.h:40\x1b[m\x1b[K,\n'}
+[3.925996] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:41\x1b[m\x1b[K,\n'}
+[3.926035] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41\x1b[m\x1b[K,\n'}
+[3.926074] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.926113] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.926156] (hello_moveit) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.926197] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.926236] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp:22\x1b[m\x1b[K,\n'}
+[3.926277] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp:7\x1b[m\x1b[K,\n'}
+[3.926318] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_state/attached_body.h:43\x1b[m\x1b[K,\n'}
+[3.926357] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:41\x1b[m\x1b[K,\n'}
+[3.926397] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41\x1b[m\x1b[K,\n'}
+[3.926437] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.926481] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktrajectory_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.926530] (hello_moveit) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.926571] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.926610] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:7\x1b[m\x1b[K,\n'}
+[3.926650] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:43\x1b[m\x1b[K,\n'}
+[3.926690] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41\x1b[m\x1b[K,\n'}
+[3.926729] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.926768] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.926955] (hello_moveit) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.927007] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.927051] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:35\x1b[m\x1b[K,\n'}
+[3.927153] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp:20\x1b[m\x1b[K,\n'}
+[3.927197] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp:7\x1b[m\x1b[K,\n'}
+[3.927239] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:44\x1b[m\x1b[K,\n'}
+[3.927280] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41\x1b[m\x1b[K,\n'}
+[3.927320] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.927411] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.927453] (hello_moveit) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.927494] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.927534] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp:28\x1b[m\x1b[K,\n'}
+[3.927575] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp:20\x1b[m\x1b[K,\n'}
+[3.927615] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__struct.hpp:24\x1b[m\x1b[K,\n'}
+[3.927655] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp:7\x1b[m\x1b[K,\n'}
+[3.927694] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:44\x1b[m\x1b[K,\n'}
+[3.927782] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.927833] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kobject_recognition_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.927891] (hello_moveit) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.927933] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.927973] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp:30\x1b[m\x1b[K,\n'}
+[3.928013] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp:20\x1b[m\x1b[K,\n'}
+[3.928053] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__struct.hpp:24\x1b[m\x1b[K,\n'}
+[3.928093] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp:7\x1b[m\x1b[K,\n'}
+[3.928132] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:44\x1b[m\x1b[K,\n'}
+[3.928171] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.928208] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kshape_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.928262] (hello_moveit) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.928301] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.928349] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp:24\x1b[m\x1b[K,\n'}
+[3.928393] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp:22\x1b[m\x1b[K,\n'}
+[3.928433] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp:32\x1b[m\x1b[K,\n'}
+[3.928473] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_options__struct.hpp:20\x1b[m\x1b[K,\n'}
+[3.928513] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/action/detail/move_group__struct.hpp:22\x1b[m\x1b[K,\n'}
+[3.928552] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/action/move_group.hpp:7\x1b[m\x1b[K,\n'}
+[3.928592] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:52\x1b[m\x1b[K,\n'}
+[3.928631] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.928676] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Koctomap_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.928717] (hello_moveit) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.928756] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.928795] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/action/detail/move_group__struct.hpp:439\x1b[m\x1b[K,\n'}
+[3.928844] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/action/move_group.hpp:7\x1b[m\x1b[K,\n'}
+[3.928945] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:52\x1b[m\x1b[K,\n'}
+[3.929008] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.929059] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kunique_identifier_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.929111] (hello_moveit) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.929157] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.929202] (hello_moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp:20\x1b[m\x1b[K,\n'}
+[3.929245] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp:7\x1b[m\x1b[K,\n'}
+[3.929288] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/action/detail/move_group__struct.hpp:1099\x1b[m\x1b[K,\n'}
+[3.929339] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/action/move_group.hpp:7\x1b[m\x1b[K,\n'}
+[3.929382] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:52\x1b[m\x1b[K,\n'}
+[3.929425] (hello_moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/hello_moveit.cpp:4\x1b[m\x1b[K:\n'}
+[3.929467] (hello_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp:33:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kaction_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.929510] (hello_moveit) StderrLine: {'line': b'   33 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.929553] (hello_moveit) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.012207] (-) TimerEvent: {}
+[4.112905] (-) TimerEvent: {}
+[4.213203] (-) TimerEvent: {}
+[4.313502] (-) TimerEvent: {}
+[4.413789] (-) TimerEvent: {}
+[4.514861] (-) TimerEvent: {}
+[4.615191] (-) TimerEvent: {}
+[4.715469] (-) TimerEvent: {}
+[4.815774] (-) TimerEvent: {}
+[4.916092] (-) TimerEvent: {}
+[5.016362] (-) TimerEvent: {}
+[5.116653] (-) TimerEvent: {}
+[5.216944] (-) TimerEvent: {}
+[5.317223] (-) TimerEvent: {}
+[5.417488] (-) TimerEvent: {}
+[5.517758] (-) TimerEvent: {}
+[5.618053] (-) TimerEvent: {}
+[5.718343] (-) TimerEvent: {}
+[5.818643] (-) TimerEvent: {}
+[5.918977] (-) TimerEvent: {}
+[5.936999] (hello_moveit) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1\n'}
+[5.937221] (hello_moveit) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_moveit.dir/all] Error 2\n'}
+[5.937446] (hello_moveit) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.939848] (hello_moveit) CommandEnded: {'returncode': 2}
+[5.949001] (hello_moveit) JobEnded: {'identifier': 'hello_moveit', 'rc': 2}
+[5.959555] (-) EventReactorShutdown: {}

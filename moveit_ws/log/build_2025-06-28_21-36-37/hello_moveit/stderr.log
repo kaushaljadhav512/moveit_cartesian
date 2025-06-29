@@ -1,0 +1,7 @@
+[01m[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/cartesian_waypoints.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/cartesian_waypoints.cpp:26:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_visual_tools[m[K’ is not a class, namespace, or enumeration
+   26 |   auto moveit_visual_tools = [01;31m[Kmoveit_visual_tools[m[K::MoveItVisualTools{
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cartesian_waypoints.dir/build.make:76: CMakeFiles/cartesian_waypoints.dir/src/cartesian_waypoints.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cartesian_waypoints.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

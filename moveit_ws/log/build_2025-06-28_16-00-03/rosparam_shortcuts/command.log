@@ -1,0 +1,4 @@
+Invoking command in '/home/kaushal/kaushal/moveit_ws/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kaushal/kaushal/moveit_ws/build/rosparam_shortcuts -- -j16 -l16
+Invoked command in '/home/kaushal/kaushal/moveit_ws/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kaushal/kaushal/moveit_ws/build/rosparam_shortcuts -- -j16 -l16
+Invoking command in '/home/kaushal/kaushal/moveit_ws/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kaushal/kaushal/moveit_ws/build/rosparam_shortcuts
+Invoked command in '/home/kaushal/kaushal/moveit_ws/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kaushal/kaushal/moveit_ws/build/rosparam_shortcuts

@@ -1,0 +1,61 @@
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:[m[K In function ‘[01m[Kvoid setAvgCartesianSpeed(moveit_msgs::msg::RobotTrajectory&, std::string, double)[m[K’:
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:9:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krobot_model_loader::RobotModelLoader::RobotModelLoader(const char [18])[m[K’
+    9 |     robot_model_loader::RobotModelLoader robot_model_loader("robot_description"[01;31m[K)[m[K;
+      |                                                                                [01;31m[K^[m[K
+In file included from [01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:3[m[K:
+[01m[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning/include/moveit/robot_model_loader/robot_model_loader.h:82:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krobot_model_loader::RobotModelLoader::RobotModelLoader(const SharedPtr&, const string&, bool)[m[K’
+   82 |   [01;36m[KRobotModelLoader[m[K(const rclcpp::Node::SharedPtr& node, const std::string& robot_description,
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning/include/moveit/robot_model_loader/robot_model_loader.h:82:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning/include/moveit/robot_model_loader/robot_model_loader.h:80:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krobot_model_loader::RobotModelLoader::RobotModelLoader(const SharedPtr&, const robot_model_loader::RobotModelLoader::Options&)[m[K’
+   80 |   [01;36m[KRobotModelLoader[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt = Options());
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning/include/moveit/robot_model_loader/robot_model_loader.h:80:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [18][m[K’ to ‘[01m[Kconst SharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<rclcpp::Node>&[m[K’}
+   80 |   RobotModelLoader([01;36m[Kconst rclcpp::Node::SharedPtr& node[m[K, const Options& opt = Options());
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning/include/moveit/robot_model_loader/robot_model_loader.h:49:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krobot_model_loader::RobotModelLoader::RobotModelLoader(const robot_model_loader::RobotModelLoader&)[m[K’
+   49 | class [01;36m[KRobotModelLoader[m[K
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning/include/moveit/robot_model_loader/robot_model_loader.h:49:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [18][m[K’ to ‘[01m[Kconst robot_model_loader::RobotModelLoader&[m[K’
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:10:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model[m[K’ has not been declared
+   10 |     [01;31m[Krobot_model[m[K::RobotModelPtr kinematic_model = robot_model_loader.getModel();
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:11:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ has not been declared
+   11 |     [01;31m[Krobot_state[m[K::RobotStatePtr kinematic_state(new robot_state::RobotState(kinematic_model));
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kkinematic_state[m[K’ was not declared in this scope; did you mean ‘[01m[Kkinematics[m[K’?
+   12 |     [01;31m[Kkinematic_state[m[K->setToDefaultValues();
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |     [32m[Kkinematics[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:25:22:[m[K [01;31m[Kerror: [m[K‘[01m[KJointTrajectoryPoint[m[K’ is not a member of ‘[01m[Ktrajectory_msgs[m[K’; did you mean ‘[01m[Ktrajectory_msgs::msg::JointTrajectoryPoint[m[K’?
+   25 |     trajectory_msgs::[01;31m[KJointTrajectoryPoint[m[K *prev_waypoint, *curr_waypoint, *next_waypoint;
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp:7[m[K,
+                 from [01m[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_state/attached_body.h:43[m[K,
+                 from [01m[K/home/kaushal/kaushal/moveit_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:41[m[K,
+                 from [01m[K/home/kaushal/kaushal/moveit_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp:167:7:[m[K [01;36m[Knote: [m[K‘[01m[Ktrajectory_msgs::msg::JointTrajectoryPoint[m[K’ declared here
+  167 | using [01;36m[KJointTrajectoryPoint[m[K =
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:25:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_waypoint[m[K’ was not declared in this scope
+   25 |     trajectory_msgs::JointTrajectoryPoint *[01;31m[Kprev_waypoint[m[K, *curr_waypoint, *next_waypoint;
+      |                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:25:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurr_waypoint[m[K’ was not declared in this scope; did you mean ‘[01m[Knum_waypoints[m[K’?
+   25 |     trajectory_msgs::JointTrajectoryPoint *prev_waypoint, *[01;31m[Kcurr_waypoint[m[K, *next_waypoint;
+      |                                                            [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                            [32m[Knum_waypoints[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:25:76:[m[K [01;31m[Kerror: [m[K‘[01m[Knext_waypoint[m[K’ was not declared in this scope; did you mean ‘[01m[Knum_waypoints[m[K’?
+   25 |     trajectory_msgs::JointTrajectoryPoint *prev_waypoint, *curr_waypoint, *[01;31m[Knext_waypoint[m[K;
+      |                                                                            [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                                            [32m[Knum_waypoints[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:61:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kplan[m[K’ was not declared in this scope
+   61 |         curr_waypoint = &[01;31m[Kplan[m[K.trajectory_.joint_trajectory.points.at(i);            //set current, previous & next waypoints
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:77:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   77 |         for(int j = 0; [01;35m[Kj < joint_names.size()[m[K; j++)     //loop through all joints in waypoint
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cartesian_planner.dir/build.make:76: CMakeFiles/cartesian_planner.dir/src/cartesian_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cartesian_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,7 @@
+[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:5:10:[m[K [01;31m[Kfatal error: [m[KEigen/Affine3d: No such file or directory
+    5 | #include [01;31m[K<Eigen/Affine3d>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cartesian_planner.dir/build.make:76: CMakeFiles/cartesian_planner.dir/src/cartesian_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cartesian_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

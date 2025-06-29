@@ -1,0 +1,4 @@
+source;share/lifted_arm_config/local_setup.bash
+source;share/lifted_arm_config/local_setup.dsv
+source;share/lifted_arm_config/local_setup.sh
+source;share/lifted_arm_config/local_setup.zsh

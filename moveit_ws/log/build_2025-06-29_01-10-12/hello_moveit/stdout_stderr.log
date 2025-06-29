@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target lifted_arm_test[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/cartesian_waypoints.dir/src/cartesian_waypoints.cpp.o[0m
+[ 50%] Built target hello_moveit
+[ 66%] [32mBuilding CXX object CMakeFiles/lifted_arm_test.dir/src/lifted_arm_test.cpp.o[0m
+[01m[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/lifted_arm_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/kaushal/kaushal/moveit_ws/src/hello_moveit/src/hello_moveit/src/lifted_arm_test.cpp:25:28:[m[K [01;31m[Kerror: [m[K‘[01m[KgetEndEffectorLink[m[K’ was not declared in this scope
+   25 |   auto end_effector_name = [01;31m[KgetEndEffectorLink[m[K();
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lifted_arm_test.dir/build.make:76: CMakeFiles/lifted_arm_test.dir/src/lifted_arm_test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/lifted_arm_test.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 83%] [32m[1mLinking CXX executable cartesian_waypoints[0m
+[ 83%] Built target cartesian_waypoints
+gmake: *** [Makefile:146: all] Error 2
