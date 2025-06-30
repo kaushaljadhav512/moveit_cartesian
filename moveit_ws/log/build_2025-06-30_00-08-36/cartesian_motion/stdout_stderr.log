@@ -1,9 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target cartesian_planner[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/cartesian_planner.dir/src/cartesian_planner.cpp.o[0m
-[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/kaushal/kaushal/moveit_ws/src/cartesian_motion/src/cartesian_planner.cpp:139:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::planning_interface::MoveGroup[m[K’ has not been declared
-  139 |   auto robot_model = moveit::planning_interface::[01;31m[KMoveGroup[m[K::getRobotModel();
-      |                                                  [01;31m[K^~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/cartesian_planner.dir/build.make:76: CMakeFiles/cartesian_planner.dir/src/cartesian_planner.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cartesian_planner.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

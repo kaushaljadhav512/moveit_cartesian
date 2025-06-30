@@ -1,4 +1,0 @@
-Invoking command in '/home/kaushal/kaushal/moveit_ws/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kaushal/kaushal/moveit_ws/build/moveit_resources_prbt_support -- -j16 -l16
-Invoked command in '/home/kaushal/kaushal/moveit_ws/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kaushal/kaushal/moveit_ws/build/moveit_resources_prbt_support -- -j16 -l16
-Invoking command in '/home/kaushal/kaushal/moveit_ws/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kaushal/kaushal/moveit_ws/build/moveit_resources_prbt_support
-Invoked command in '/home/kaushal/kaushal/moveit_ws/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kaushal/kaushal/moveit_ws/build/moveit_resources_prbt_support

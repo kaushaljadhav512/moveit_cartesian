@@ -1,4 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target cartesian_waypoints[0m
-[ 16%] [32mBuilding CXX object CMakeFiles/lifted_arm_test.dir/src/lifted_arm_test.cpp.o[0m
-[ 50%] Built target hello_moveit
-[ 83%] Built target cartesian_waypoints
