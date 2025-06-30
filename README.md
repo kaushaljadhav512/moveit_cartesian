@@ -8,6 +8,8 @@ This branch targets ROS 2 `humble`.
 
 Launch rviz, move_it and ros2_conrol with "ros2 launch lifted_arm_config demo.launch.py"
 
+The modified ur10e urdf is contained in moveit_resources/lifted_arm_config/config
+
 In a separate terminal, run "ros2 run cartesian_motion cartesian_planner"
 
 This will launch the planning and executor node.
