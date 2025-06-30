@@ -1,5 +1,7 @@
 # moveit_cartesian
 
+![constant_velocity_cartesian (2)](https://github.com/user-attachments/assets/04fa328a-c20d-44d3-90ea-37b5bc71676c)
+
 ## Overview
 
 This branch targets ROS 2 `humble`.
@@ -46,7 +48,7 @@ source install/local_setup.bash
 For starting up RViz with the lifted_arm URDF loaded and the MoveIt! Motion Planning plugin run: 
 
 ```bash
-Rviz, with "ros2 launch lifted_arm_config demo.launch.py"
+ros2 launch lifted_arm_config demo.launch.py
 ```
 
 
