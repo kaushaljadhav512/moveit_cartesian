@@ -4,7 +4,7 @@
 
 This branch targets ROS 2 `humble`.
 
-Below is an overview of the included packages, with a short description of their purpose.
+Below is an overview of the included packages, with a short description of their purpose. For more information, please see README.md of each individual package.
 
 - [**Universal_Robots_ROS2_Description**](./Universal_Robots_ROS2_Description) – Universal Robots ROS2 Description package with the modified UR10e robot (attached with a vertical prismatic lift)
 - [**lifted_arm_config**](./lifted_arm_config) – MoveIt 2 configuration for the modified lifted_arm robot.
@@ -54,13 +54,6 @@ In a separate terminal, run the constant-velocity cartesian path planning node
 ```bash
 ros2 run cartesian_motion cartesian_planner
 ```
-
-
-When launched, the robot arm will plan and move to a fixed height(z) as defined in cartesian_planner.cpp (z=1.0 in our case)
-
-Then the robot will plan a cartesian trajectory for a list of waypoints in the x-y plane
-
-The planned trajectory is then retified with the set_avg_cartesian_speed function to constrain the end effector at a specified average speed.
 
 
 ## TODO
