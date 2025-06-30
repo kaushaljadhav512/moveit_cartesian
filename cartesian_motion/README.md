@@ -35,24 +35,18 @@ Robot starts with joints at initial positions, current end-effector pose is (x=0
   cartesian_pose.position.y += 0.2;
   waypoints.push_back(cartesian_pose);
 
+```
 Average speed for the end-effector to follow is 0.015 m/s
 
 #### Trajectory executed:
 
-```[constant_velocity_cartesian.webm](https://github.com/user-attachments/assets/7c24c134-baf2-4fdf-9c60-cf7075839f2c)
-
-https://gi![constant_velocity_cartesian (2)](https://github.com/user-attachments/assets/5a277e2b-f70a-4112-a0ef-0fdb322eb18f)
-thub.com/user-attachments/assets/68287418-6e6a-497d-a97c-eaff2854b57a
-
-
-
-
-![constant_velocity_cartesian](https://github.com/user-attachments/assets/e8b26957-7d6d-4868-8f8c-2285cc8025e3)
-
-
+<p align="middle" float="middle">
+  <img width="50.0%" src="https://github.com/user-attachments/assets/e8b26957-7d6d-4868-8f8c-2285cc8025e3" alt="Animation of constant velocity cartesian"/>
+</p>
 
 
 #### Joint Velocities:
 
-
-
+<p align="middle" float="middle">
+  <img width="50.0%" src="https://github.com/user-attachments/assets/d12190a7-4862-4a82-b2aa-d84822978701" alt="joint_velocities"/>
+</p>
